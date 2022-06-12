@@ -1,0 +1,33 @@
+body {
+    background-position: center;
+    background-size: cover;
+}
+
+.btn-secondary {
+    width: 90%;
+    margin: 10px;
+    animation: animate 1s infinite;
+    border: 5px double white;
+    font-size: 25px;
+}
+
+@keyframes animate {
+    from{box-shadow: 5px 2px 15px pink;}
+    to{box-shadow: 5px 2px 15px whitesmoke;}
+}
+
+#status {
+    width: 40%;
+    font-size: 15px;
+}
+
+canvas {
+    border: 2px double black;
+    animation: shadow 1s infinite;
+    margin-top: 130px;
+}
+
+@keyframes shadow {
+    from{box-shadow: 1px 1px 15px white;}
+    to{box-shadow: 1px 1px 15px pink;}
+}
